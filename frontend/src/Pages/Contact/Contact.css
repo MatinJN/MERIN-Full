@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#top-products{
+    background-color: #f6f6f6;
+    min-height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column  ;
+}
+
+.input-form{
+    border: none;
+    border-bottom: 1px solid;
+}
+
+.all .input-form{
+    width: 45%;
+}
+
+.text-area{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid ;
+}
+
+.contact-btn{
+    background: transparent none repeat scroll 0 0;
+    border: 1px solid #d5d5d5;
+    color: #4b4b4b;
+    font-size: 14px;
+    height: 45px;
+    letter-spacing: 2px;
+    line-height: 45px;
+    padding: 0 70px;
+    text-transform: uppercase;
+    transition: all .3s ease 0s;
+    margin: 1rem;
+}
+
+.contact-btn:hover{
+    color: #fff;
+    background-color: #ff4136;
+}

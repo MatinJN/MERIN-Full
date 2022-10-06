@@ -1,0 +1,66 @@
+.top{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    margin: 8rem auto 0;
+    cursor: pointer;
+}
+
+.tab-active{
+    color: #ff4136;
+}
+
+
+.top h2{
+    font-size: 36px;
+    margin: 0 20px;
+}
+
+
+.main{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    margin: 2rem auto;
+    display: none;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+input{
+    border: none;
+    border-bottom: 1px solid;
+    margin: 1rem auto;
+    width: 70%;
+    padding: 5px;
+
+}
+
+
+.active{
+    display: block;
+}
+
+form button{
+    border: 1px solid #d5d5d5;
+    color: #4b4b4b;
+    display: inline-block;
+    font-size: 20px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all .5s ease 0s;
+    width: 150px;
+    margin: auto;
+}
+
+button:hover{
+    background-color: #ff4136;
+    color: #fff;
+}

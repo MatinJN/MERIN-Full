@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#Footer{
+    background-color: #f3f3f3;
+    min-height: 200px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+#Footer .left img{
+    margin: 5rem 0 2rem 0;
+}
+
+#Footer .middle h2{
+    margin: 5rem 0 2rem 0;
+    font-size: 18px;
+}
+
+#Footer .right h2{
+    margin: 5rem 0 2rem 0;
+    font-size: 18px;
+}
+
+p{
+    font-size: 13px;
+}
+
+#Footer p:hover{
+    color: #ff4136;
+    cursor: pointer;
+}

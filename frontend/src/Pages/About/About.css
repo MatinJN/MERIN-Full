@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#top-products{
+    background-color: #f6f6f6;
+    min-height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column  ;
+}
+
+.First-about{
+    text-align: center;
+    width: 40%;
+    margin: 4rem auto;
+    
+}
+
+.First-about h2{
+    font-size: 30px;
+    color: #343434;
+    padding: 15px 0;
+}
+
+.First-about p{
+    font-size: 15px;
+    color: #666666;
+
+}
+
+.First-about button{
+    padding: 10px 40px;
+    background-color: #fff;
+    border: 1px solid #666666;
+    margin: 15px 0 30px 0;
+}

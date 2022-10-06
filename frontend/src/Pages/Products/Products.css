@@ -1,0 +1,27 @@
+#top-product {
+    background-color: #f6f6f6;
+    min-height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.main-product{
+    margin-top: 2rem;
+}
+.main-product h4{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 25px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+
+
+
+
